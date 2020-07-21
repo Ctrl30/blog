@@ -31,6 +31,15 @@
 - [数组扁平化](https://github.com/jiangxinlei/blog/issues/21)
 - [函数柯里化](https://github.com/jiangxinlei/blog/issues/22)
 - [Promise - 带着问题手写](https://github.com/jiangxinlei/blog/issues/23)
+- [手写 vite](https://github.com/jiangxinlei/blog/issues/25)
+
+## 工程化
+
+- [工程化概述](https://github.com/jiangxinlei/blog/issues/26)
+- [centos 下 安装 nodejs 及相关](https://github.com/jiangxinlei/blog/issues/24)
+- [centos 7 配置](https://github.com/jiangxinlei/blog/issues/27)
+- [开发脚手架](https://github.com/jiangxinlei/blog/issues/28)
+- [脚手架开发常用库](https://github.com/jiangxinlei/blog/issues/29)
 
 ## flexbox
 
