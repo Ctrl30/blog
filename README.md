@@ -6,6 +6,10 @@
 
 ## react
 
+- [react fiber 架构](https://github.com/jiangxinlei/blog/issues/42)
+- [虚拟 DOM](https://github.com/jiangxinlei/blog/issues/44)
+- [react 数据传递](https://github.com/jiangxinlei/blog/issues/40)
+- [props.children 和 React.Children](https://github.com/jiangxinlei/blog/issues/41)
 - [useState](https://github.com/jiangxinlei/blog/issues/3)
 - [useEffect](https://github.com/jiangxinlei/blog/issues/4)
 - [useRef](https://github.com/jiangxinlei/blog/issues/5)
@@ -15,6 +19,7 @@
 - [useMemo](https://github.com/jiangxinlei/blog/issues/9)
 - [react hooks 原理与实现](https://github.com/jiangxinlei/blog/issues/1)
 - [基于 hooks 的性能优化](https://github.com/jiangxinlei/blog/issues/10)
+- [immutability-helper-x 库](https://github.com/jiangxinlei/blog/issues/43)
 
 ## 手写代码
 
@@ -42,6 +47,7 @@
 - [开发脚手架](https://github.com/jiangxinlei/blog/issues/28)
 - [脚手架开发常用库](https://github.com/jiangxinlei/blog/issues/29)
 - [前端开发规范化流程配置](https://github.com/jiangxinlei/blog/issues/33)
+- [开发 babel 插件](https://github.com/jiangxinlei/blog/issues/39)
 
 ## 计算机
 
