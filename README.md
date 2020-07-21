@@ -32,6 +32,7 @@
 - [函数柯里化](https://github.com/jiangxinlei/blog/issues/22)
 - [Promise - 带着问题手写](https://github.com/jiangxinlei/blog/issues/23)
 - [手写 vite](https://github.com/jiangxinlei/blog/issues/25)
+- [promise 简单实现 ajax](https://github.com/jiangxinlei/blog/issues/36)
 
 ## 工程化
 
@@ -40,6 +41,26 @@
 - [centos 7 配置](https://github.com/jiangxinlei/blog/issues/27)
 - [开发脚手架](https://github.com/jiangxinlei/blog/issues/28)
 - [脚手架开发常用库](https://github.com/jiangxinlei/blog/issues/29)
+- [前端开发规范化流程配置](https://github.com/jiangxinlei/blog/issues/33)
+
+## 计算机
+
+- [原码、补码、反码](https://github.com/jiangxinlei/blog/issues/30)
+- [神奇的运算符](https://github.com/jiangxinlei/blog/issues/31)
+- [js 中的位运算符](https://github.com/jiangxinlei/blog/issues/32)
+
+## 浏览器
+
+- [从输入URL到页面展示，再到性能优化](https://github.com/jiangxinlei/blog/issues/34)
+- [性能优化实践](https://github.com/jiangxinlei/blog/issues/37)
+
+## 数学
+
+- [三角函数](https://github.com/jiangxinlei/blog/issues/35)
+
+## vscode
+
+- [vscode 快捷键](https://github.com/jiangxinlei/blog/issues/38)
 
 ## flexbox
 
