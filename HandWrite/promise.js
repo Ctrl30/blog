@@ -1,3 +1,12 @@
+/* 
+  Promise A+ 规范：
+
+  1、Promise 本身是一个状态机，且状态只能为以下三种：Pending(等待态)、Fulfilled(执行态)、Rejected(拒绝态)；
+  状态的变更是单向的，只能从 Pending -> Fulfilled 或 Pending -> Rejected，状态变更不可逆
+
+  2、then 方法接收两个参数，分别对应状态改变时触发的回调；then 方法返回一个 Promise，且可以被同一个 Pomise 调用多次
+*/
+
 class MyPromise {
   static PENDING = 'pending';
   static FULILLED = 'fulfilled';
