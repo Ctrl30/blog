@@ -114,6 +114,7 @@ class MyPromise {
     return new MyPromise((resolve, reject) => reject(reason));
   }
 
+  // 只有当所有 promise 都成功执行才返回成功的值，否则都会走到 reject
   static all(promises) {
     // 任何一个 Promise 状态，当状态失败，就改变 all 的 Promise 状态
     // 而且每一个 Promise 必须都成功返回，所以添加一个记录
@@ -138,6 +139,7 @@ class MyPromise {
     })
   }
 
+  // 哪一个 promise 执行的快，就执行哪个，其他的都不执行
   static race(promises) {
     return new MyPromise((resolve, reject) => {
       promises.map(promise => {
