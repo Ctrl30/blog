@@ -2,8 +2,6 @@
 
 以下文章是平时一些总结，仅供自己学习。
 
-转载请注明出处。
-
 ## react
 
 - [react fiber 架构](https://github.com/jiangxinlei/blog/issues/42)
