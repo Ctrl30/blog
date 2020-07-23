@@ -72,9 +72,10 @@
 
 - [三角函数](https://github.com/jiangxinlei/blog/issues/35)
 
-## vscode
+## 工具
 
 - [vscode 快捷键](https://github.com/jiangxinlei/blog/issues/38)
+- [oh my zsh 终端配置](https://github.com/jiangxinlei/blog/issues/52)
 
 ## flexbox
 
