@@ -46,6 +46,8 @@
 - [脚手架开发常用库](https://github.com/jiangxinlei/blog/issues/29)
 - [前端开发规范化流程配置](https://github.com/jiangxinlei/blog/issues/33)
 - [开发 babel 插件](https://github.com/jiangxinlei/blog/issues/39)
+- [docker 使用](https://github.com/jiangxinlei/blog/issues/53)
+- [docker 安装 gitlab](https://github.com/jiangxinlei/blog/issues/54)
 
 ## webpack
 
