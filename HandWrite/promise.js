@@ -76,6 +76,7 @@ class MyPromise {
 
     const promise =  new MyPromise((resolve, reject) => {
 
+      // executor 函数是异步的时候就会走到这里，这是需要将 onFulfilled 和 onRejectFn 放到队列里
       // 准备的状态处理
       if (this.status === MyPromise.PENDING) {
         this.callbacks.push({
