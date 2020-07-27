@@ -9,7 +9,7 @@ function instance(left, right) {
   while (true) {
     if (left === null) return false;
 
-    if (prototype === left) return true;
+    if (left === prototype) return true;
 
     left = left.__proto__;
   }
