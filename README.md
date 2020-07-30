@@ -18,6 +18,7 @@
 - [react hooks 原理与实现](https://github.com/jiangxinlei/blog/issues/1)
 - [基于 hooks 的性能优化](https://github.com/jiangxinlei/blog/issues/10)
 - [immutability-helper-x 库](https://github.com/jiangxinlei/blog/issues/43)
+- [react 知识点总结](https://github.com/jiangxinlei/blog/issues/56)
 
 ## 手写代码
 
