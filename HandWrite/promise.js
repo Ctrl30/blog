@@ -172,4 +172,39 @@ class MyPromise {
       reason => MyPromise.resolve(cb()).then(() => { throw reason })
     )
   }
+
+  // 无论成功或失败，结果都会按顺序返回
+  static allSettled(promises) {
+    return new MyPromise((resolve) => {
+      // 用来存放结果
+      let values = [];
+
+      promises.forEach((promise, i) => {
+        promise.then(
+          value => {
+            // 成功的结果放入 values 中，注意顺序
+            values[i] = {
+              status: 'fulfilled',
+              value
+            }
+
+            if (values.length === promises.length) {
+              resolve(values);
+            }
+          },
+          reason => {
+            values[i] = {
+              status: 'rejected',
+              value: reason
+            }
+            values.push(reason);
+            if (values.length === promises.length) {
+              resolve(values);
+            }
+          }
+        )
+      });
+
+    })
+  }
 }
