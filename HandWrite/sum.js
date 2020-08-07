@@ -77,7 +77,7 @@ function sumNum(num1, num2) {
 
   // 取两个数，小数位多的那个数
   // 比如是 0.23 和 0.342， m = 10 ** 3
-  const m = Math.pow(10, Math.max(sq1, sq2));  // 或着 10 ** Math.max(sq1, sq2)
+  const m = 10 ** Math.max(sq1, sq2);  // 或着 Math.pow(10, Math.max(sq1, sq2))
 
   // 将小数转成整数进行相加
   // 进行 toFixed 操作会转成字符串
